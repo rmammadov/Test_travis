@@ -1,3 +1,4 @@
 language: objective-c
+osx_image: xcode9.4 #2
 xcode_project: Test.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Test
