@@ -11,4 +11,4 @@ env:
     - LC_CTYPE=en_US.UTF-8 LANG=en_US.UTF-8
 
 script:
-    - xcodebuild clean test -project Test.xcodeproj -scheme Test -destination "platform=iOS Simulator,name=iPhone 6" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+    - xcodebuild clean test -project Test.xcodeproj -scheme Test -destination "platform=iOS Simulator, OS:11.0, name=iPhone 6s" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
